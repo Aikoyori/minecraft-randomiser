@@ -30,6 +30,7 @@ randomisetags = args.tags
 preserveloot = args.lootchances
 randomlootamount = args.randomlootamount
 
+longestbar = 0
 random.seed(randomseed)
 def print2(toprint, toupdate=False):
     global longestbar
@@ -40,7 +41,7 @@ def print2(toprint, toupdate=False):
     else:
         print(toprint.ljust(longestbar, ' '))
         longestbar = 0
-longestbar = 0
+
 
 if datafolder == "shuffle":
     print("The input data folder may not be named 'shuffle'.")

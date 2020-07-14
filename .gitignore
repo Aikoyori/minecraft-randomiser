@@ -2,6 +2,6 @@ shuffle.zip
 random_data_*.zip
 shuffle/
 build/
-dist/
+dist/       
 __pycache__/
 *.spec
